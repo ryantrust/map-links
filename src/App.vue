@@ -46,7 +46,7 @@
         </div>
 
         <div class="overlay export bottom right">
-            <h4 class="center mb-2">Export selection to</h4>
+            <h4 class="center mb-2">Export locations to</h4>
             <div class="flex gap">
                 <Button @click="exportToJSON()" class="bordered-success" text="JSON" title="Export as JSON" />
                 <Button @click="exportToCSV()" class="bordered-success" text="CSV" title="Export as CSV"/>
