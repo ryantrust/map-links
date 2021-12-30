@@ -305,11 +305,11 @@ onMounted(function() {
     checkClusters();
 
     // Fix hard reload issue
-	const mapDiv = document.getElementById("map");
-	const resizeObserver = new ResizeObserver(() => {
-		map.invalidateSize();
-	});
-	resizeObserver.observe(mapDiv);
+    const mapDiv = document.getElementById("map");
+    const resizeObserver = new ResizeObserver(() => {
+        map.invalidateSize();
+    });
+    resizeObserver.observe(mapDiv);
 });
 
 
