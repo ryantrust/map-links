@@ -74,7 +74,7 @@ import "leaflet.markercluster.freezable/dist/leaflet.markercluster.freezable.js"
 
 import booleanPointInPolygon from "@turf/boolean-point-in-polygon";
 
-const dateToday = new Date().getFullYear() + "-" + (new Date().getMonth() + 1);
+const dateToday = new Date().getFullYear() + "-" + String(new Date().getMonth() + 1).padStart(2, '0');
 
 const settings = reactive({
     rejectUnofficial: true,
